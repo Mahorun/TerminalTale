@@ -2,12 +2,14 @@ import time
 from hlep import clear, fight
 
 class Froggit: #Unhealable
+    human = False
     name = "Froggit"
     health = 20
     damage = [2 ,3]
     alive = True
     name = "Froggit" 
 class Frisk: #Healable
+    human = True
     color = "red"
     name = ""
     health = 20
