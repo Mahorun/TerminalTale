@@ -1,4 +1,3 @@
-# myProjects
-
-Im having python course
+# TermianlTale v0.3
+added new human "Clover"
 
