@@ -14,6 +14,8 @@ else:
     questionMark = input("Are you sure(Y)? This name will make your life hell.")
     if questionMark.lower() == "y":
       print("Good luck.")
+      Frisk.health = 3
+      Frisk.shines = True
       time.sleep(3)
       Frisk.shines = True
     elif questionMark:
@@ -24,5 +26,7 @@ else:
       print("Well, you are now nameless lol.")
       time.sleep(3)
       clear()
+time.sleep(3)
+clear()
 fight(selected_character, Froggit)
 
